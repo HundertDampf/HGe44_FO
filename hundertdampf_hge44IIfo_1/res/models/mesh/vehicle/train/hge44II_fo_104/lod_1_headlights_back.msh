@@ -1,0 +1,98 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, 0, 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 1536,
+					offset = 8528,
+				},
+				position = {
+					count = 1536,
+					offset = 10064,
+				},
+				tangent = {
+					count = 1536,
+					offset = 6992,
+				},
+				uv0 = {
+					count = 1536,
+					offset = 11600,
+				},
+			},
+			materials = {
+				"vehicle/train/hge44II_fo_104.mtl", 
+			},
+		}, {
+			indices = {
+				normal = {
+					count = 48,
+					offset = 13184,
+				},
+				position = {
+					count = 48,
+					offset = 13232,
+				},
+				tangent = {
+					count = 48,
+					offset = 13136,
+				},
+				uv0 = {
+					count = 48,
+					offset = 13280,
+				},
+			},
+			materials = {
+				"vehicle/train/hge44_lights_on.mtl", 
+			},
+		}, {
+			indices = {
+				normal = {
+					count = 96,
+					offset = 13424,
+				},
+				position = {
+					count = 96,
+					offset = 13520,
+				},
+				tangent = {
+					count = 96,
+					offset = 13328,
+				},
+				uv0 = {
+					count = 96,
+					offset = 13616,
+				},
+			},
+			materials = {
+				"vehicle/train/hge44_lights_off.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 828,
+			numComp = 3,
+			offset = 3680,
+		},
+		position = {
+			count = 1020,
+			numComp = 3,
+			offset = 4508,
+		},
+		tangent = {
+			count = 3680,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 1464,
+			numComp = 2,
+			offset = 5528,
+		},
+	},
+}
+end

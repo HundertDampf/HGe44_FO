@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 8304,
+					offset = 40400,
+				},
+				position = {
+					count = 8304,
+					offset = 23792,
+				},
+				tangent = {
+					count = 8304,
+					offset = 48704,
+				},
+				uv0 = {
+					count = 8304,
+					offset = 32096,
+				},
+			},
+			materials = {
+				"vehicle/train/hge44II_fo_104.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 5448,
+			numComp = 3,
+			offset = 9112,
+		},
+		position = {
+			count = 5544,
+			numComp = 3,
+			offset = 0,
+		},
+		tangent = {
+			count = 9232,
+			numComp = 4,
+			offset = 14560,
+		},
+		uv0 = {
+			count = 3568,
+			numComp = 2,
+			offset = 5544,
+		},
+	},
+}
+end

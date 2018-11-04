@@ -1,0 +1,28 @@
+function data()
+return {
+	children = {
+		{
+			id = "vehicle/train/hge44II_fo_104/lod_2_axis3.msh",
+			transf = {
+				0.48, 0.0, 0.0, 0.0, 0.0, -0.0, 0.48, 0.0, 0.0, -0.6, -0.0, 0.0, -16.32033, 9.49807, -17.37591, 1.0, 
+			},
+			type = "MESH",
+		}, {
+			id = "vehicle/train/hge44II_fo_104/lod_2_axis4.msh",
+			transf = {
+				0.48, 0.0, 0.0, 0.0, 0.0, -0.0, 0.48, 0.0, 0.0, -0.6, -0.0, 0.0, -19.22959, 9.49807, -17.37591, 1.0, 
+			},
+			type = "MESH",
+		}, {
+			id = "vehicle/train/hge44II_fo_104/lod_2_bogie2.msh",
+			transf = {
+				1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -17.75198, 9.46596, -17.29119, 1.0, 
+			},
+			type = "MESH",
+		}, 
+	},
+	matConfigs = {
+		{ 0, 0, 0, }, 
+	},
+}
+end

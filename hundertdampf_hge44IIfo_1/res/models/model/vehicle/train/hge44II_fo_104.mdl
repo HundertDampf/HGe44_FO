@@ -1,0 +1,572 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.80, 1.4, 5.47988, },
+		bbMin = { -7.19, -1.4, 0, },
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			children = {
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_body.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16504, 0.05676, 1.81284, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II/lod_0_bogy1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -14.0432, 9.42203, -17.93018, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/train/hge44II/lod_0_bogy2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 14.0432, -9.42203, 17.9302, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_cab.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.05657, 2.09947, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_cab_desk.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.05657, 1.61198, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_cab_seat.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.05657, 1.71333, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_cooler_top.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.1652, 0.05657, 3.28158, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_details_left.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.08353, 1.40472, 1.76636, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_details_right.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.4023, -1.29109, 1.76642, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_front_details_big.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16719, 0.05657, 1.00833, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_front_details_med.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.05657, 1.52806, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_front_details_small.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16694, 0.05269, 1.34082, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_headlights_back.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.65251, 0.05657, 2.21566, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_headlights_front.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.31849, 0.05657, 2.21566, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_left.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.48201, 1.39883, 2.07339, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_panto_down.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 3.66945, 0.05946, 3.52508, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_panto_up.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -3.98242, 0.05927, 3.77625, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_right.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.14799, -1.28569, 2.07339, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_roof.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.0567, 3.16687, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_roof_details1.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.21237, 0.52606, 3.49226, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_roof_details2.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16553, -0.10931, 3.28321, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_unterbau.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.12695, 0.05702, 0.55339, 1.0, 
+					},
+					type = "MESH",
+				}, 
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 20,
+		}, {
+			children = {
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_body.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16502, 0.05677, 1.82974, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II/lod_1_bogy1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 14.0432, -9.42203, 17.9302, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/train/hge44II/lod_1_bogy2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 14.0432, -9.42203, 17.9302, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_cab_desk.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.05657, 1.61037, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_cooler_top.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16515, 0.05664, 3.28165, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_details_left.msh",
+					transf = {
+						-1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.08353, 1.40472, 1.76903, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_details_right.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.40389, -1.2909, 1.76903, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_front_details_big.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.24937, 0.06394, 1.06597, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_front_details_med.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.15683, 0.05551, 1.53002, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_headlights_back.msh",
+					transf = {
+						-1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.64852, 0.05652, 2.22521, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_headlights_front.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.31449, 0.05652, 2.22521, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_panto_down.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 3.65527, 0.05517, 3.52813, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_panto_up.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -4.0011, 0.05881, 3.90415, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_roof_details1.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.20484, 0.53045, 3.49306, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_unterbau.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.11134, 0.03771, 0.50084, 1.0, 
+					},
+					type = "MESH",
+				}, 
+				
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_cab.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.05657, 2.09947, 1.0, 
+					},
+					type = "MESH",
+				},
+
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_roof.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.0567, 3.16687, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_roof_details2.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16553, -0.10931, 3.28321, 1.0, 
+					},
+					type = "MESH",
+				},				
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 20,
+			visibleTo = 60,
+		}, {
+			children = {
+				{
+					id = "vehicle/train/hge44II/lod_2_bogy1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 14.0432, -9.42203, 17.9302, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/train/hge44II/lod_2_bogy2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 14.07297, -9.4415, 17.87092, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_body.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16502, 0.05677, 1.82974, 1.0, 
+					},
+					type = "MESH",
+				},				
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_cooler_top.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16467, 0.05657, 3.28019, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_details_right.001.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.20239, 1.40472, 1.83687, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_details_right.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.20239, -1.29359, 1.83687, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_front_details_big.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.68227, 0.05976, 1.12178, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_panto_down.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 3.70131, 0.0517, 3.58051, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_panto_up.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -4.06725, 0.05766, 4.08208, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_roof_details1.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.65287, 0.08946, 3.33744, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_roof_details2.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, -0.12466, 3.27651, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_unterbau.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.27976, 0.00189, 0.5859, 1.0, 
+					},
+					type = "MESH",
+				}, 
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_cab.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.05657, 2.09947, 1.0, 
+					},
+					type = "MESH",
+				},
+
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_roof.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.0567, 3.16687, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_headlights_back.msh",
+					transf = {
+						-1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.64852, 0.05652, 2.22521, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_headlights_front.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.31449, 0.05652, 2.22521, 1.0, 
+					},
+						type = "MESH",
+				},
+				},									
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 60,
+			visibleTo = 200,
+		}, 		  {
+			children = {			
+				{
+					id = "vehicle/train/hge44II/lod_2_bogy1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 14.0432, -9.42203, 17.9302, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/train/hge44II/lod_2_bogy2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 14.07297, -9.4415, 17.87092, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_1_body.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16502, 0.05677, 1.82974, 1.0, 
+					},
+					type = "MESH",
+				},				
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_cooler_top.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16467, 0.05657, 3.28019, 1.0, 
+					},
+					type = "MESH",
+				},
+
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_panto_up.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -4.06725, 0.05766, 4.08208, 1.0, 
+					},
+					type = "MESH",
+				},
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_2_roof_details2.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, -0.12466, 3.27651, 1.0, 
+					},
+					type = "MESH",
+				},
+
+				{
+					id = "vehicle/train/hge44II_fo_104/lod_0_roof.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.16701, 0.0567, 3.16687, 1.0, 
+					},
+					type = "MESH",
+				},		
+					
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 900,
+		}, 
+	},
+	metadata = {
+		description = {
+			name = _("HGe 4/4 II - MGB"),
+			description = _("Die HGe 4/4 II ist eine elektrische Meterspurlokomotive mit Zahnradantrieb. Meistens wird sie vor schweren Personen- oder Güterzügen eingesetzt. In dieser Variante trägt sie die Farben der MGB.")
+		},
+		availability = {
+			yearFrom = 0,
+			yearTo = 0,
+		},
+		cost = {
+			price = -1,
+		},
+		maintenance = {
+			lifespan = 50,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = {
+					id = "vehicle/train/hge44II_fo_104/lod_0_axis1.msh",
+					id = "vehicle/train/hge44II_fo_104/lod_0_axis3.msh",
+					}
+				},
+				{
+					axles = {
+					id = "vehicle/train/hge44II_fo_104/lod_1_axis1.msh",
+					id = "vehicle/train/hge44II_fo_104/lod_1_axis3.msh",	
+					}
+				},
+				{
+					axles = {
+					id = "vehicle/train/hge44II_fo_104/lod_2_axis1.msh",
+					id = "vehicle/train/hge44II_fo_104/lod_2_axis3.msh",	
+					}
+				},{
+					axles = {
+					id = "vehicle/train/hge44II_fo_104/lod_2_axis1.msh",
+					id = "vehicle/train/hge44II_fo_104/lod_2_axis3.msh",
+					}
+				}			
+			},
+			soundSet = { name = "train_electric_modern"},
+			engines = {
+				{
+					power = 1878.0,
+					tractiveEffort = 230.0,
+					type = "ELECTRIC",
+				}, 
+			},
+			topSpeed = 100.0,
+			weight = 62.3,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			multipleUnitOnly = false,
+			seats = {
+				-- driver					
+				{ group =1, transf = transf.rotZYXTransl(transf.degToRad(0.0, 0.0, 0.0), vec3.new(5.4, -0.9, -0.7)), crew = true, standing = false},	
+			},
+		},
+	},
+}
+end
